@@ -1,6 +1,7 @@
 #!/bin/bash
 # MusicBee + MPRIS Launch Script
 
+# Ensure that this is pointing to the correct wine prefix for MusicBee.
 export WINEPREFIX="$HOME/.wine"
 
 # 1. Start the Linux Bridge
