@@ -1,3 +1,4 @@
+# This is a modified version of MusicBee.desktop found at ~/.local/share/applications/wine/Programs/MusicBee. Make a backup of the original file before editing.
 [Desktop Entry]
 Version=1.0
 Type=Application
@@ -6,8 +7,7 @@ Comment=MusicBee with Linux Media Integration
 # We use the absolute path to bash to ensure the script environment is stable
 ## Replace USERNAME with your username & ensure path to start-musicbee.sh is correct.
 Exec=/usr/bin/bash /home/USERNAME/start-musicbee.sh
-#Specify an icon file here, or remove this line.
-## Replace USERNAME with your username
+# Specify an icon file here, or remove line. Replace USERNAME with your username.
 Icon=/home/USERNAME/.local/share/applications/wine/Programs/MusicBee/musicbee-itunes.ico
 Terminal=false
 StartupNotify=true
