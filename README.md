@@ -1,5 +1,5 @@
 # MusicBee Linux Ultimate Setup Guide by COLVDV
-  A definitive guide to setting up MusicBee on Linux under Wine, including full configuration for optimal playback &amp; remote library sync using Syncthing. Open an issue if any questions and I can make clerical edits where needed.
+  A definitive guide to setting up MusicBee on Linux under Wine, including remote library sync using Syncthing. Open an issue if any questions and I can make clerical edits where needed.
 
 ## Steps:
   ### 1. Install Wine & Winetricks
