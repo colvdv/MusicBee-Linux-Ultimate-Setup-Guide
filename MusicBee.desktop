@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=MusicBee (MPRIS)
+Comment=MusicBee with Linux Media Integration
+# We use the absolute path to bash to ensure the script environment is stable
+## Replace USERNAME with your username & ensure path to start-musicbee.sh is correct.
+Exec=/usr/bin/bash /home/USERNAME/start-musicbee.sh
+#Specify an icon file here, or remove this line.
+## Replace USERNAME with your username
+Icon=/home/USERNAME/.local/share/applications/wine/Programs/MusicBee/musicbee-itunes.ico
+Terminal=false
+StartupNotify=true
+# This matches the Wine window to this specific icon
+StartupWMClass=musicbee.exe
+Categories=AudioVideo;Audio;Player;
+# This tells Fedora to treat this as a standard app launch
+DBusActivatable=false
+## Replace USERNAME with your username
+Path=/home/USERNAME/
