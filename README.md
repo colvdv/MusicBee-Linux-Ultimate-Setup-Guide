@@ -30,7 +30,7 @@
   ##### b. Move `mprisbee-bridge` to your MusicBee install directory (example: `~/.wine/drive_c/Program Files (x86)/MusicBee`).
   #### C. Download and configure the [launch script](https://github.com/colvdv/MusicBee-Linux-Ultimate-Setup/blob/main/start-musicbee.sh) and then move it to your home directory.
   #### D. Test the launch script & ensure that the plugin is working: `sh ~/start-musicbee.sh`.
-  #### E. Now that it is working, let's [modify MusicBee's .desktop launcher file](https://github.com/colvdv/MusicBee-Linux-Ultimate-Setup/blob/main/MusicBee.desktop) (`~/.local/share/applications/wine/Programs/MusicBee/MusicBee.desktop`) to handle the script.
+  #### E. After confirming that it is working, let's [modify MusicBee's .desktop launcher file](https://github.com/colvdv/MusicBee-Linux-Ultimate-Setup/blob/main/MusicBee.desktop) (`~/.local/share/applications/wine/Programs/MusicBee/MusicBee.desktop`) to handle the script.
   ### 8. Configure Syncthing for Remote Library Sync
   #### A. Install Syncthing on all devices that will be using it.
   **Linux**: `sudo apt install syncthing` (`sudo dnf install syncthing` on Fedora)
